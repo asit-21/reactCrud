@@ -1,0 +1,15 @@
+div{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   padding-top: 8px;
+   /* background-color: rgb(218, 218, 218); */
+}
+
+
+
+@media(max-width:500px){
+    div{
+        flex-direction: column;
+    }
+}
