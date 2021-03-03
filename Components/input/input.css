@@ -1,0 +1,119 @@
+div{
+  width: 100%;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  margin-top: -25px;
+  margin-bottom: 0px;
+  margin-left: 125px;
+}
+
+.address{
+  margin-left: 60px;
+  background-color: white;
+  margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 0mm;
+    border-top: 0mm;
+    border-right: 0mm;
+    border-left: 0mm;
+    border-color: rgb(247, 247, 247);
+    outline: none;
+    width: 210px;
+    height: 120px;
+    padding: 10px; 
+    display: block;
+    box-sizing: border-box;
+}
+.addressinput{
+  border-color: rgb(247, 247, 247);
+  /* display: block; */
+  outline: none;
+}
+.addressp{
+  color: red;
+  margin-top: 0px;
+  height: 1px;
+  margin-left: 60px;
+}
+
+.Inputs{
+  margin-left: 60px; 
+  display: block; 
+  /* display: flex;
+  flex-direction: column; */
+  height: 38px;
+}
+
+.Input{
+    /* margin-left: 60px; */
+    border-top: 0mm;
+    border-right: 0mm;
+    border-left: 0mm;
+    border-color: rgb(247, 247, 247);
+    outline: none;
+    width: 210px;
+    height: 2px;
+    padding: 10px; 
+    display: block;
+    box-sizing: border-box;
+} 
+
+.Label{
+  margin-left: 60px;
+  font-weight: bold; 
+  /* display: block; */
+  /* margin-bottom: -25px; */
+  margin-bottom: 0;
+  /* margin-left: 0px;  */
+  color: black;
+} 
+
+
+p{
+  color: red;
+  margin-top: 0px;
+  height: 1px;
+  /* display: block; */
+}
+
+button{
+  margin-left: 125px;
+  border-color: rgb(247, 247, 247);
+  background-color: rgb(93, 63, 230);
+  height: 30px;
+  width: 70px;
+  color: white;
+  box-shadow: 0 2px 3px  rgb(51, 52, 53);
+}
+button:hover{
+  background-color: rgb(70, 4, 190);
+}
+
+
+
+
+
+/* .no-arrow {
+    -moz-appearance: textfield;
+  }
+.no-arrow:hover{
+  -moz-appearance: textfield;
+} */
+  /* .no-arrow::-webkit-inner-spin-button {
+    display: none;
+  }
+  .no-arrow::-webkit-outer-spin-button,
+  .no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  } */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
